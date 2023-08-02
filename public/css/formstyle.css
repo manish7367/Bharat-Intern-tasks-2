@@ -1,0 +1,39 @@
+body{
+    background: url(/images/formback.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+}
+.glass{
+    background: linear-gradient(135deg,rgba(225,225,225,0.1),rgba(225,225,225,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(225,225,225,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+.glass input{
+    border-radius: 10px;
+}
+.glass input:focus{
+    box-shadow: 0 0 0;
+    border: 1px solid salmon;
+}
+.glass textarea{
+    border-radius: 10px;
+}
+.glass textarea:focus{
+    box-shadow: 0 0 0;
+    border: 1px solid salmon;
+}
+.btn-1{
+    border-radius: 10px;
+    transition: .4s all
+}
+.btn-1:hover{
+    transform: scale(1.2);
+}
